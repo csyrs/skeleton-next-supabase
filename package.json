@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "ds": "next --turbopack --experimental-https -p 1080",
+    "pb": "next build -d"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.48.1",
+    "next": "^15.1.7",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.8",
+    "@types/react": "^19.0.10",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.8",
+    "typescript": "^5.7.3"
+  }
+}
